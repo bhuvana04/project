@@ -2,11 +2,7 @@
  
 int main()
 {
-   int n, reverse = 0;
- 
-   printf("Enter a number to reverse\n");
-   scanf("%d", &n);
- 
+   int n=12345, reverse = 0;
    while (n != 0)
    {
       reverse = reverse * 10;
