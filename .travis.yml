@@ -1,6 +1,6 @@
 language: c
-2. sudo: false 
-3. compiler: gcc
-6. script:
-7. - gcc -o falling falling.c 
-8. - ./falling 
+ sudo: false 
+ compiler: gcc
+ script:
+ - gcc -o falling falling.c 
+ - ./falling 
